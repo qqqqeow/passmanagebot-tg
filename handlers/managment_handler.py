@@ -131,7 +131,7 @@ async def delete_folder1(call: CallbackQuery):
     page = int(call_data[3])
     
     if new_folder_id == 0:
-        folder_name = "<b>Менеджер паролей by @x1x</b>"
+        folder_name = "<b>Менеджер паролей 🐻</b>"
     else:
         folder_data = await FolderManager.get_folder(folder_id=folder_id)
         folder_name = folder_data.folder_name
